@@ -27,6 +27,35 @@ html{
 .acumin-font {
     font-family: "Roboto-Acumin";
 }
+#title {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+.p-light{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+}
+.homehr{
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: .1px solid black;
+    margin: 1em 0; 
+}
+.footerhr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: .1px solid #eeeeee;
+    margin: 1em 0; 
+    padding: 0; 
+}
 
 .scene-1 {
     background: url('../images/Home_01.jpg');
@@ -62,7 +91,7 @@ body {
     border:0;
     outline:0;
     font-size: 120%;
-    background: #807563;
+    background: #807461;
 }
 
 .toptext{
@@ -122,10 +151,19 @@ body {
     font-size: 1.5em;
 }
 .aboutservice{
-    padding: 5vw;
+    padding: 5vw 5vw 2vw 5vw;
 }
 .abouticon{
     width: 10vw;
+}
+.abouticontext{
+    padding-top: 4vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5rem;
+    letter-spacing: 0.12rem;
+    color: black;
+    font-weight: 500;
 }
 .homebutton{
     background-color: #118C79;
