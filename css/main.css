@@ -9,40 +9,45 @@ html{
 }
 @font-face {
     font-family:"Roboto-Medium";
-    src: url(../fonts/Roboto-Medium.ttf)
+    src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
     font-family:"Roboto-Bold";
-    src: url(../fonts/Roboto-Bold.ttf)
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
     font-family:"Roboto-Acumin";
-    src: url(../fonts/AcuminVariableConcept.otf)
+    src: url(../fonts/AcuminVariableConcept.otf);
 }
-.scene-1{
-    background: url('../images/Home_01.jpg')
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.scene-2{
-    background: url('../images/Home_02.jpg')
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}.scene-3{
-    background: url('../images/Home_03.jpg')
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}.scene-4{
-    background: url('../images/Home_04.jpg')
+.scene-1 {
+    background: url('../images/Home_01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-body{
+.scene-2 {
+    background: url('../images/Home_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.scene-3 {
+    background: url('../images/Home_03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.scene-4 {
+    background: url('../images/Home_04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+body {
     font-family: "Roboto-Regular";
     margin:0;
     border:0;
@@ -50,6 +55,7 @@ body{
     font-size: 120%;
     background: #807563;
 }
+
 .toptext{
     padding-left:10vw;
     padding-top: 1vw;
@@ -58,23 +64,23 @@ body{
     font-size: .8em;
 }
 
-.navbar{
+.navbar {
     width: 100vw;
     position: absolute;
     top: 8vh;
     z-index: 999;
-}
-.navbar-brand{
+} 
+
+.navbar-brand {
     height: 10vh;
     vertical-align: middle;
 }
+
 .navbar-brand img {
     height: inherit;
     padding-left: 1em;
 }
-.nav-item{
-    
-}
+
 /*navbar animation*/
 .nav-link{
     text-decoration: none;
