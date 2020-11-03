@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:"Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf)
+}
+@font-face {
+    font-family:"Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf)
+}
+@font-face {
+    font-family:"Roboto-Acumin";
+    src: url(../fonts/AcuminVariableConcept.otf)
+}
+
+body{
+    font-family: "Roboto-Regular";
+    margin:0;
+    border:0;
+    outline:0;
+    font-size: 120%;
+    background: #807563;
+}
+.toptext{
+    padding-left:10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: white;
+    font-size: .8em;
+}
+
+.navbar{
+    width: 100vw;
+    position: absolute;
+    top: 8vh;
+    z-index: 999;
+}
+.navbar-brand{
+    height: 10vh;
+    vertical-align: middle;
+}
+.navbar-brand img {
+    height: inherit;
+    padding-left: 1em;
+}
+.nav-item{
+    
+}
+/*navbar animation*/
+.nav-link{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: black!important;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+.nav-link::before{
+    transition: 200ms;
+    height: 0.5em;
+    content:"";
+    background-color: #118C79;
+    display: block;
+}
+.nav-link-fade-up::before{
+    width: 90%;
+    bottom: -10px;
+    opacity: 0;
+}
+.nav-link-fade-up:hover::before{
+    bottom: -5px;
+    opacity: 1;
+}
+/*navbar animation end*/
+.aboutpic{
+    margin-top: 20vh;
+    max-width: 80vh;
+}
+.home-titles{
+    font-size: 1.5em;
+}
+.aboutservice{
+    padding: 5vw;
+}
+.abouticon{
+    width: 10vw;
+}
+.homebutton{
+    background-color: #118C79;
+    color: white;
+    text-align: center;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
