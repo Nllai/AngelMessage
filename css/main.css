@@ -19,6 +19,28 @@ html{
     font-family:"Roboto-Acumin";
     src: url(../fonts/AcuminVariableConcept.otf)
 }
+.scene-1{
+    background: url('../images/Home_01.jpg')
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.scene-2{
+    background: url('../images/Home_02.jpg')
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}.scene-3{
+    background: url('../images/Home_03.jpg')
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}.scene-4{
+    background: url('../images/Home_04.jpg')
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 body{
     font-family: "Roboto-Regular";
@@ -105,4 +127,9 @@ body{
     margin-top: 1vw;
     margin-bottom: 1vw;
     font-size: 1.5vw;
+}
+
+/*Footer*/
+.footer-font{
+    color: white;
 }
