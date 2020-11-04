@@ -84,6 +84,18 @@ html{
     background-size: cover;
     background-position: center center;
 }
+.contact-scene1{
+    background: url('../images/Contact_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.contact-scene2{
+    background: url('../images/Contact_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 body {
     font-family: "Roboto-Regular";
@@ -181,6 +193,9 @@ body {
 /*Footer*/
 .footer-font{
     color: white;
+}
+.footericons{
+    color: black;
 }
 
 a:link {
