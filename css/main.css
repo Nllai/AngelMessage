@@ -104,7 +104,7 @@ body {
 .navbar {
     width: 100vw;
     z-index: 999;
-} 
+}
 
 .navbar-brand {
     height: 10vh;
@@ -127,20 +127,20 @@ body {
 .nav-link:hover{
     opacity: 1;
 }
-.nav-link::before{
+.nav-link::after{
     transition: 200ms;
     height: 0.5em;
     content:"";
     background-color: #118C79;
     display: block;
 }
-.nav-link-fade-up::before{
-    width: 90%;
-    bottom: -10px;
+.nav-link-fade-up::after{
+    bottom: -150px;
     opacity: 0;
 }
-.nav-link-fade-up:hover::before{
-    bottom: -5px;
+
+.nav-link-fade-up:hover::after{
+    bottom: -50px;
     opacity: 1;
 }
 /*navbar animation end*/
