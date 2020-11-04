@@ -191,8 +191,11 @@ body {
 }
 .underline{
     border-bottom: 1px solid black;
+    width: 100%;
 }
-
+.servicetext{
+    font-size: 1.3vw;
+}
 /*Footer*/
 .footer-font{
     color: white;
