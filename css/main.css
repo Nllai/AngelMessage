@@ -32,7 +32,7 @@ html{
     font-style: normal;
     font-weight: 700;
     font-size: 2em;
-    
+
 }
 .p-light{
     font-family: 'Roboto', sans-serif;
@@ -42,19 +42,19 @@ html{
     font-weight: 400;
 }
 .homehr{
-    display: block; 
+    display: block;
     height: 1px;
-    border: 0; 
+    border: 0;
     border-top: .1px solid black;
-    margin: 1em 0; 
+    margin: 1em 0;
 }
-.footerhr { 
-    display: block; 
+.footerhr {
+    display: block;
     height: 1px;
-    border: 0; 
+    border: 0;
     border-top: .1px solid #eeeeee;
-    margin: 1em 0; 
-    padding: 0; 
+    margin: 1em 0;
+    padding: 0;
 }
 
 .scene-1 {
@@ -83,7 +83,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+
 }
 .contact-scene1{
     background: url('../images/Contact_01.jpg');
@@ -166,7 +166,7 @@ body {
     padding: 5vw 5vw 2vw 5vw;
 }
 .abouticon{
-    width: 10vw;
+    width: 7em;
 }
 .abouticontext{
     padding-top: 4vh;
@@ -193,9 +193,7 @@ body {
     border-bottom: 1px solid black;
     width: 100%;
 }
-.servicetext{
-    font-size: .8em;
-}
+
 /*Footer*/
 .footer-font{
     color: white;
