@@ -195,9 +195,6 @@ body {
 }
 
 /*Footer*/
-.footer-font{
-    color: white;
-}
 .footericons{
     color: black;
 }
@@ -220,4 +217,31 @@ a:hover {
 a:active {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-font{
+        color: white;
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+    .footer-font{
+        color: white;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .footer-font{
+        color: white;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer-font{
+        color: white;
+    }
 }
