@@ -125,7 +125,7 @@ body {
 
 .navbar-brand img {
     height: inherit;
-    padding-left: 1em;
+   
 }
 
 /*navbar animation*/
@@ -157,7 +157,11 @@ body {
 }
 /*navbar animation end*/
 .aboutpic{
-    margin-top: 5vh;
+    margin-top: 1vh;
+    background: url('../images/Home_00.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .home-titles{
     font-size: 1.5em;
