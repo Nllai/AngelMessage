@@ -164,6 +164,8 @@ body {
 /*navbar animation end*/
 .aboutpic{
     margin-top: 1vh;
+    border-left: 1vh solid transparent;
+    border-right: 1vh solid transparent;
     background: url('../images/Home_00.jpg');
     background-repeat: no-repeat;
     background-size: cover;
