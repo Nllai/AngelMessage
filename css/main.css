@@ -34,6 +34,12 @@ html{
     font-size: 2em;
 
 }
+#footer-title{
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
 .p-light{
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -125,7 +131,7 @@ body {
 
 .navbar-brand img {
     height: inherit;
-    padding-left: 1em;
+   
 }
 
 /*navbar animation*/
@@ -157,7 +163,13 @@ body {
 }
 /*navbar animation end*/
 .aboutpic{
-    margin-top: 5vh;
+    margin-top: 1vh;
+    border-left: 1vh solid transparent;
+    border-right: 1vh solid transparent;
+    background: url('../images/Home_00.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .home-titles{
     font-size: 1.5em;
@@ -196,7 +208,7 @@ body {
 
 /*Footer*/
 .footericons{
-    color: black;
+    height: 2vw;
 }
 
 a:link {
