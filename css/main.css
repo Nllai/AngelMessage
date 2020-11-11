@@ -171,6 +171,14 @@ body {
     background-size: cover;
     background-position: center center;
 }
+.servicepic{
+    margin-top: 1vh;
+    border-left: 1vh solid transparent;
+    border-right: 1vh solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .home-titles{
     font-size: 1.5em;
 }
