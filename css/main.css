@@ -185,9 +185,7 @@ body {
 .aboutservice{
     padding: 5vw 5vw 2vw 5vw;
 }
-.abouticon{
-    width: 10vw;
-}
+
 .abouticontext{
     padding-top: 4vh;
     font-family: 'Roboto', sans-serif;
@@ -238,11 +236,13 @@ a:active {
     color: white;
     text-decoration: none;
 }
-
 @media only screen and (max-width: 576px) {
     .footer-font{
         color: white;
         font-size: 3em;
+    }
+    .abouticon{
+        width: 20vw;
     }
 }
 
@@ -251,6 +251,9 @@ a:active {
         color: white;
         font-size: 2em;
     }
+    .abouticon{
+        width: 20vw;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -258,10 +261,16 @@ a:active {
         color: white;
         font-size: 2em;
     }
+    .abouticon{
+        width: 10vw;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .footer-font{
         color: white;
+    }
+    .abouticon{
+        width: 10vw;
     }
 }
