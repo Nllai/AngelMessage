@@ -32,8 +32,8 @@ html{
     font-style: normal;
     font-weight: 700;
     font-size: 2em;
-
 }
+
 #footer-title{
     font-family: acumin-pro-extra-condensed, sans-serif;
     font-style: normal;
@@ -131,7 +131,7 @@ body {
 
 .navbar-brand img {
     height: inherit;
-   
+
 }
 
 /*navbar animation*/
@@ -177,9 +177,7 @@ body {
 .aboutservice{
     padding: 5vw 5vw 2vw 5vw;
 }
-.abouticon{
-    width: 10vw;
-}
+
 .abouticontext{
     padding-top: 4vh;
     font-family: 'Roboto', sans-serif;
@@ -236,12 +234,18 @@ a:active {
         color: white;
         font-size: 3em;
     }
+    .abouticon{
+        width: 20vw;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 769px) {
     .footer-font{
         color: white;
         font-size: 2em;
+    }
+    .abouticon{
+        width: 20vw;
     }
 }
 
@@ -250,10 +254,16 @@ a:active {
         color: white;
         font-size: 2em;
     }
+    .abouticon{
+        width: 10vw;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .footer-font{
         color: white;
+    }
+    .abouticon{
+        width: 10vw;
     }
 }
