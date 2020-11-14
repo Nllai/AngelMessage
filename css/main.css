@@ -34,12 +34,6 @@ html{
     font-size: 2em;
 }
 
-#footer-title{
-    font-family: acumin-pro-extra-condensed, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-}
 .p-light{
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -242,10 +236,18 @@ a:active {
 @media only screen and (max-width: 576px) {
     .footer-font{
         color: white;
-        font-size: 3em;
+        font-size: 2em;
+        margin-bottom: 0.5em;
     }
     .abouticon{
         width: 15vw;
+    }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4em;
+        padding-bottom: 0.2em!important;
     }
 }
 
@@ -257,6 +259,12 @@ a:active {
     .abouticon{
         width: 20vw;
     }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -267,6 +275,12 @@ a:active {
     .abouticon{
         width: 10vw;
     }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -275,5 +289,11 @@ a:active {
     }
     .abouticon{
         width: 10vw;
+    }
+    #footer-title{
+        font-family: acumin-pro-extra-condensed, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
     }
 }
