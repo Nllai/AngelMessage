@@ -32,8 +32,8 @@ html{
     font-style: normal;
     font-weight: 700;
     font-size: 2em;
-
 }
+
 #footer-title{
     font-family: acumin-pro-extra-condensed, sans-serif;
     font-style: normal;
@@ -131,7 +131,7 @@ body {
 
 .navbar-brand img {
     height: inherit;
-   
+
 }
 
 /*navbar animation*/
@@ -167,14 +167,6 @@ body {
     border-left: 1vh solid transparent;
     border-right: 1vh solid transparent;
     background: url('../images/Home_00.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.servicepic{
-    margin-top: 1vh;
-    border-left: 1vh solid transparent;
-    border-right: 1vh solid transparent;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -236,6 +228,7 @@ a:active {
     color: white;
     text-decoration: none;
 }
+
 @media only screen and (max-width: 576px) {
     .footer-font{
         color: white;
